@@ -47,6 +47,13 @@ This skill governs the end-to-end procedural execution for identifying, qualifyi
 2. **Stripe Crypto USDC Payouts:** Connect Stripe US to the Wyoming LLC. Stripe processes credit card payments (Visa, Mastercard, Apple Pay) and automatically converts fiat proceeds into **USDC stablecoins** paid directly to your private self-custody Web3 wallet (Phantom/MetaMask on Solana or Polygon).
 3. **Local File Transfer Rule:** When generating memory or skill packages for knowledge transfer to another agent, generate direct downloadable local files (`/data/MEMORY.md`, `/data/SKILLS.md`), without depending solely on live web links.
 
+### 4. Mandatory Multi-Repo GitHub Dispatch & Secret Sanitization
+1. **Mandatory Head Account Dispatch Rule:** Every project, skill, code engine, or automation platform created in this environment MUST automatically be initialized as a git repository and pushed live to the head GitHub account `Hemang-krishna` (`krishnachaitanyalagadapatihema@gmail.com`).
+2. **GitHub Secret Scanning & Push Protection (GH013) Sanitization:**
+   - Before committing and pushing any repository to GitHub, scan all source code, HTML, and JS files for raw hardcoded secrets or API tokens (e.g. Notion API tokens `ntn_...`, Google API keys `AQ...`, Slack tokens `xoxp-...`).
+   - Replace all raw credential strings with dynamic environment variable reads (`os.environ.get("KEY_NAME")`) or UI `localStorage` reads (`localStorage.getItem("KEY_NAME")`).
+   - Push to authenticated remote URL: `git remote add origin https://Hemang-krishna:<PAT>@github.com/Hemang-krishna/<repo_name>.git`.
+
 ## Checklist Before Completing Lead Campaigns
 1. [ ] Leads filtered strictly for missing websites (`has_website == False`).
 2. [ ] Lead status live-synced in Notion & Slack workspace databases.
