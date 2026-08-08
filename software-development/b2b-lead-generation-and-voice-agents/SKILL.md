@@ -15,6 +15,8 @@ This skill governs the end-to-end procedural execution for identifying, qualifyi
 ## References & Supporting Knowledge
 - See [Voice Calling, Email & Privacy Payment Guide](references/voice_calling_and_privacy_payments.md) for sub-second voice pipeline configurations, GSM/Android hardware drivers, B2B email discovery, Wyoming Anonymous LLC setup, and Stripe Crypto USDC payouts.
 - See [Execution Transparency & Telephony Guide](references/execution_transparency_and_telephony.md) for execution mode disclosures, same-day sales scripting, and native Telegram file delivery.
+- See [GitHub Push Protection & Multi-Repo Dispatch Reference](references/github_push_protection_and_multi_repo.md) for automated secret sanitization patterns, resolving GH013 push rule violations, and handling shallow clone repo exports.
+- See [Discord-Notion Bridge & Mandatory GitHub Policy](references/discord_notion_bridge_and_mandatory_github_policy.md) for Discord bot integration, bulletproof BeautifulSoup DDG Lite search engine, selective cute mention responding, personal Telegram workflow state reporting, twice-daily automated check-in routine, visual n8n flow architect engine, self-hosted AI starter kit integration, and mandatory GitHub multi-repo pushing.
 
 ## Core Procedural Workflows
 
@@ -26,7 +28,8 @@ This skill governs the end-to-end procedural execution for identifying, qualifyi
    - Direct Phone Line Present: +25 points
    - Review Count $\ge 20$: +20 points (or $\ge 5$: +10 points)
    - Star Rating $\ge 4.0$: +15 points
-4. **Dual Database Dispatch:** Automatically push lead cards to Notion Tasks Database (`NotionEnterpriseEngine`) and post formatted alert cards to Slack Incoming Webhooks (`SlackIntegrationEngine`).
+4. **Dual Database Dispatch (Discord & Notion):** Automatically push lead cards to Notion Tasks Database (`NotionEnterpriseEngine`) and post formatted alert embeds to Discord Webhooks/Channels (`DiscordIntegrationEngine`), completely replacing Slack.
+5. **Discord Gateway Intents Connection Pattern:** Connect `discord.py` bots using default non-privileged intents (`discord.Intents.default()`) during initial startup so the bot connects immediately to the Gateway without triggering `PrivilegedIntentsRequired` errors. Instruct user to enable Message Content Intent in the Developer Portal for advanced message parsing.
 
 ### 2. Sub-Second (< 450ms Latency) Outbound AI Voice Calling Pipeline
 1. **Architecture:**

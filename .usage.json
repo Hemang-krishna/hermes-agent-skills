@@ -133,14 +133,14 @@
     "archived_at": null,
     "created_at": "2026-08-05T12:14:27.928435+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-08-05T13:48:51.179032+00:00",
-    "last_used_at": "2026-08-05T13:48:46.502489+00:00",
-    "last_viewed_at": "2026-08-05T13:48:46.501475+00:00",
-    "patch_count": 5,
+    "last_patched_at": "2026-08-08T14:22:33.327372+00:00",
+    "last_used_at": "2026-08-08T14:22:30.534882+00:00",
+    "last_viewed_at": "2026-08-08T14:22:30.533288+00:00",
+    "patch_count": 17,
     "pinned": false,
     "state": "active",
-    "use_count": 3,
-    "view_count": 3
+    "use_count": 19,
+    "view_count": 19
   },
   "baoyu-infographic": {
     "archived_at": null,
@@ -394,13 +394,13 @@
     "created_at": "2026-07-30T23:53:20.036404+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": "2026-08-05T13:48:34.006532+00:00",
-    "last_viewed_at": "2026-08-05T13:48:34.004835+00:00",
+    "last_used_at": "2026-08-08T11:20:18.662804+00:00",
+    "last_viewed_at": "2026-08-08T11:20:18.661368+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 2,
-    "view_count": 2
+    "use_count": 4,
+    "view_count": 4
   },
   "google-workspace": {
     "archived_at": null,
@@ -588,14 +588,14 @@
     "archived_at": null,
     "created_at": "2026-08-03T13:03:44.729722+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-08-05T08:01:16.667682+00:00",
-    "last_used_at": "2026-08-05T08:01:01.194282+00:00",
-    "last_viewed_at": "2026-08-05T08:01:01.193565+00:00",
-    "patch_count": 55,
+    "last_patched_at": "2026-08-08T12:58:20.585768+00:00",
+    "last_used_at": "2026-08-08T12:58:14.366294+00:00",
+    "last_viewed_at": "2026-08-08T12:58:14.360021+00:00",
+    "patch_count": 59,
     "pinned": false,
     "state": "active",
-    "use_count": 47,
-    "view_count": 47
+    "use_count": 53,
+    "view_count": 53
   },
   "nano-pdf": {
     "archived_at": null,
@@ -771,13 +771,13 @@
     "created_at": "2026-08-04T01:43:45.678730+00:00",
     "created_by": null,
     "last_patched_at": "2026-08-05T07:24:07.846498+00:00",
-    "last_used_at": "2026-08-05T12:14:00.074003+00:00",
-    "last_viewed_at": "2026-08-05T12:14:00.073206+00:00",
+    "last_used_at": "2026-08-08T10:59:40.917652+00:00",
+    "last_viewed_at": "2026-08-08T10:59:40.916148+00:00",
     "patch_count": 14,
     "pinned": false,
     "state": "active",
-    "use_count": 9,
-    "view_count": 9
+    "use_count": 10,
+    "view_count": 10
   },
   "python-debugpy": {
     "archived_at": null,
