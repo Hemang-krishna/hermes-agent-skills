@@ -4,13 +4,13 @@
     "created_at": "2026-08-04T12:33:42.938446+00:00",
     "created_by": null,
     "last_patched_at": "2026-08-04T14:45:55.068924+00:00",
-    "last_used_at": "2026-08-05T12:14:10.855132+00:00",
-    "last_viewed_at": "2026-08-05T12:14:10.854318+00:00",
+    "last_used_at": "2026-08-10T19:15:13.934280+00:00",
+    "last_viewed_at": "2026-08-10T19:15:13.931814+00:00",
     "patch_count": 20,
     "pinned": false,
     "state": "active",
-    "use_count": 12,
-    "view_count": 12
+    "use_count": 13,
+    "view_count": 13
   },
   "airtable": {
     "archived_at": null,
@@ -433,13 +433,13 @@
     "created_at": "2026-07-30T23:37:37.122199+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": "2026-08-03T13:43:37.478767+00:00",
-    "last_viewed_at": "2026-08-03T13:43:37.477985+00:00",
+    "last_used_at": "2026-08-10T19:23:49.948549+00:00",
+    "last_viewed_at": "2026-08-10T19:23:49.946963+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 3,
-    "view_count": 3
+    "use_count": 4,
+    "view_count": 4
   },
   "hermes-agent-skill-authoring": {
     "archived_at": null,
@@ -771,13 +771,13 @@
     "created_at": "2026-08-04T01:43:45.678730+00:00",
     "created_by": null,
     "last_patched_at": "2026-08-05T07:24:07.846498+00:00",
-    "last_used_at": "2026-08-08T10:59:40.917652+00:00",
-    "last_viewed_at": "2026-08-08T10:59:40.916148+00:00",
+    "last_used_at": "2026-08-10T19:15:26.774002+00:00",
+    "last_viewed_at": "2026-08-10T19:15:26.771548+00:00",
     "patch_count": 14,
     "pinned": false,
     "state": "active",
-    "use_count": 10,
-    "view_count": 10
+    "use_count": 11,
+    "view_count": 11
   },
   "python-debugpy": {
     "archived_at": null,
@@ -869,6 +869,19 @@
     "state": "active",
     "use_count": 0,
     "view_count": 0
+  },
+  "snorlax-bot-automation": {
+    "archived_at": null,
+    "created_at": "2026-08-10T19:15:43.281250+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-08-12T13:04:13.222545+00:00",
+    "last_used_at": "2026-08-12T13:04:06.579240+00:00",
+    "last_viewed_at": "2026-08-12T13:04:06.577152+00:00",
+    "patch_count": 5,
+    "pinned": false,
+    "state": "active",
+    "use_count": 3,
+    "view_count": 3
   },
   "software-development/project-excellence-standard": {
     "archived_at": null,
