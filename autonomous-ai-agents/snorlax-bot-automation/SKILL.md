@@ -23,7 +23,7 @@ When team members (@Vish7781, @lo_uffy_1999, @Dragoz666, or Dxrk sky) mention `@
 
 ### 3. Supervising Agent & Twice-Daily Cron Schedule
 - Deploys dedicated supervisor agents (`/data/job_search_supervisor.py`) to oversee complex recurring tasks until complete.
-- Runs twice-daily scheduled cron jobs (09:00 AM & 04:00 PM UTC) to audit pipelines, verify accessible apply links, update Notion, and post report embeds to Discord.
+- Runs twice-daily scheduled cron jobs (09:00 AM & 04:00 PM UTC) to audit pipelines, verify accessible apply links, update Notion, and log local private reports.
 
 ### 2. @Mention-Only Public Responding
 - Snorlax passively reads and logs ALL team messages in Discord to track workflow state.

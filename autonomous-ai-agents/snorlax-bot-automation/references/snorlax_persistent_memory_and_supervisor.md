@@ -1,24 +1,21 @@
-# Snorlax Persistent Memory, Supervisor Agent & Project Ops Architecture
+# Snorlax Persistent Memory Engine & Supervisor Isolation Reference
 
-## Persistent Memory Engine (`/data/integrations/snorlax_memory_engine.py`)
+## 🧠 Persistent Memory Engine (`/data/integrations/snorlax_memory_engine.py`)
 
-Snorlax Bot maintains a cross-session memory vault (`/data/snorlax_memory.json`) storing team preferences, facts, and directives across turns:
-- **Save Memory:** `@Snorlax remember <fact>`
-- **View Memory:** `@Snorlax memory`
-- **Memory Context:** Automatically injected into Snorlax's reasoning prompt for live web search and Discord answers.
+Snorlax Bot maintains a cross-session persistent memory vault stored at `/data/snorlax_memory.json`.
 
-## Supervisor Agent & Cron Schedule (`/data/job_search_supervisor.py`)
+### Features
+1. **Facts & Directives Store:** Stores team preferences, executive roles, and operational directives across restarts.
+2. **Discord Interactive Memory Commands:**
+   - `@Snorlax remember <fact>`: Saves a new fact/rule directly to `/data/snorlax_memory.json`.
+   - `@Snorlax memory`: Displays the current persistent facts and rules logged in memory.
+3. **Exact Web Search Synthesis:** Combines persistent memory context with live DuckDuckGo web search results to deliver exact answers with direct, clickable source links.
 
-Automated task supervision pattern:
-1. **Scraper Agent (`/data/job_search_agent.py`):** Extracts job listings for Customer Support Operations (6+ Yrs Exp) in Hyderabad & Bangalore.
-2. **Supervisor Agent (`/data/job_search_supervisor.py`):** Audits search quality and verifies accessible application links.
-3. **Twice-Daily Cron Jobs:**
-   - Morning Cron: `0 9 * * *` (9:00 AM UTC)
-   - Afternoon Cron: `0 16 * * *` (4:00 PM / 16:00 UTC)
+---
 
-## Project Ops Privacy Boundary & Exemption Rule
+## 🔒 Project Ops Privacy & Isolation Protocol
 
-- **Strict Isolation:** "Project Ops" is a private, local-only project.
-- **No GitHub Sync:** Scripts (`job_search_agent.py`, `job_search_supervisor.py`) and data (`job_search_results.json`, `job_search_summary_report.txt`) are EXEMPT from automatic sync/push to GitHub (`Hemang-krishna`).
-- **No Discord Posting:** Snorlax Bot MUST NOT post any Project Ops results or report cards to Discord channels.
-- **Local Report Output:** All cron job runs write reports strictly locally to `/data/job_search_summary_report.txt`.
+### Privacy Rules
+1. **GitHub Exemption:** All scripts (`job_search_agent.py`, `job_search_supervisor.py`), datasets (`job_search_results.json`), and reports (`job_search_summary_report.txt`) created for **"Project Ops"** are **STRICTLY PRIVATE & EXEMPT** from sync to GitHub account `Hemang-krishna`.
+2. **Discord Exemption:** Snorlax Bot must **NEVER** post Project Ops search results, job reports, or updates to public Discord channels.
+3. **Local & Direct Output:** All Project Ops results are stored locally in `/data/` and reported directly to the user in session output or private Telegram state reports.
